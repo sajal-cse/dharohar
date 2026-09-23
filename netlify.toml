@@ -2,5 +2,9 @@
 command = "npx next build"
 publish = ".next"
 
+[build.environment]
+NEXT_PUBLIC_SUPABASE_URL = "https://pxmibladscvyhikcnvwc.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB4bWlibGFkc2N2eWhpa2NudndjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg0NTAzNzUsImV4cCI6MjEwNDAyNjM3NX0.c9fNhs1soCU7IfBUHjnXx7l99-Ydm_eYQtieNlDmKog"
+
 [[plugins]]
 package = "@netlify/plugin-nextjs"
